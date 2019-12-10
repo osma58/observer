@@ -1,0 +1,88 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  nav {
+    background-color: rgba(71, 17, 17, 0.9);
+      width: 100%;
+      position: sticky;
+      transition: top 0.3s ease-out;
+      position: fixed;
+  }
+
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      
+
+
+  }
+
+  nav a {
+      
+     color: white;
+
+      display: block;
+      text-align: center;
+      padding: 1em;
+      text-decoration: none;
+
+  }
+  nav a:hover {
+      color: #aaa;
+      background-color: black;
+      color: white;
+  }
+  
+  section {
+    min-height: 30vh;
+    padding: 3em;
+    transition: all 1s linear;
+  }
+  
+  .deel {
+    padding: 30vh 3em;
+    background-color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 3em;
+    color: rgba(255,255,255,0.7);
+    text-shadow: 0 0 3px grey;
+    overflow-x: hidden;
+  }
+  
+  /* achtergrond afbeeldingen */
+  .deel--2 {
+    background-image: url("https://images.unsplash.com/photo-1498730458132-35a34b398927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80") ;
+  }
+  
+  .deel--4 {
+    background-image: url("https://images.unsplash.com/photo-1498683874934-651d85eb30e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")
+  }
+  
+  .deel--6 {
+    background-image: url("https://wallup.net/wp-content/uploads/2019/05/10/279906-mountain-nature-landscape-cloud-lake-tree-reflection-river-rock-hd-4k-ultrahd-wallpaper.jpg")
+  }
+  
+  
+  
+  .accent {
+    color: dodgerblue;
+    /*font-size: 4em;*/
+    background-color: rgba(71, 17, 17, 0.9);
+  }
+  
+  #voortgang {
+    position: fixed;
+    bottom: 0;
+    height: 5px;
+    background-color: yellow;
+    /*width: 100%;*/
+  }
